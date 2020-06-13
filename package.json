@@ -1,14 +1,24 @@
 {
   "name": "nodejs_phaser_snake_game",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
-  }
+    "express": "^4.17.1",
+    "gh-pages": "^3.0.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sushkr34/NodeJs_Phaser_Snake_Game.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sushkr34/NodeJs_Phaser_Snake_Game/issues"
+  },
+  "homepage": "https://github.com/sushkr34/NodeJs_Phaser_Snake_Game#readme",
+  "description": ""
 }
