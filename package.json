@@ -2,14 +2,15 @@
   "name": "nodejs_phaser_snake_game",
   "version": "1.0.0",
   "description": "",
-  "main": "index.html",
+  "main": "/public/index.html",
   "dependencies": {
     "express": "^4.17.1",
     "gh-pages": "^3.0.0"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
